@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Security",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -31,8 +31,8 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.4",
     "siteFonts": [],
-    "uniqCompNum": 18,
-    "versionPublish": "4.10.4",
+    "uniqCompNum": 19,
+    "versionPublish": "4.10.5",
     "screenshot": "screenshot.png"
   },
   "pages": {
@@ -606,6 +606,31 @@
           "_params": {}
         },
         {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "postToLoad": "6",
+            "facebookToken": "EAAE777VYAAMBAGG7nr94TrwQvxVnmUmvIUda9NuSHH7cX4FhtXWlTTtXWLde0jEHZB1vx9fo4V3nWA2Ei9MFQDqqNZA3BTN8XI6EFkQmjMp4Cfkgced0EQPaVjnhtjRDL2s6Kp9hQRhynDHZAAbowYEvZCjheGeq8dqoEIOwvAZDZD",
+            "facebook": "@1684542381622488",
+            "twitter": "mobirise",
+            "youtube": "UCt_tncVAetpK5JeM8L-8jyw",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "alias": "social-feed",
+          "_tags": [
+            "Extensión"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-i"
+        },
+        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -716,31 +741,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "postToLoad": 3,
-            "facebookToken": "EAAE777VYAAMBAGG7nr94TrwQvxVnmUmvIUda9NuSHH7cX4FhtXWlTTtXWLde0jEHZB1vx9fo4V3nWA2Ei9MFQDqqNZA3BTN8XI6EFkQmjMp4Cfkgced0EQPaVjnhtjRDL2s6Kp9hQRhynDHZAAbowYEvZCjheGeq8dqoEIOwvAZDZD",
-            "facebook": "",
-            "twitter": "mobirise",
-            "youtube": "UCt_tncVAetpK5JeM8L-8jyw",
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
-            "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
-          },
-          "alias": "social-feed",
-          "_tags": [
-            "Extensión"
-          ],
-          "_name": "feed",
-          "_anchor": "feed-g"
         },
         {
           "alias": false,
@@ -1339,31 +1339,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "postToLoad": 3,
-            "facebookToken": "EAAE777VYAAMBAGG7nr94TrwQvxVnmUmvIUda9NuSHH7cX4FhtXWlTTtXWLde0jEHZB1vx9fo4V3nWA2Ei9MFQDqqNZA3BTN8XI6EFkQmjMp4Cfkgced0EQPaVjnhtjRDL2s6Kp9hQRhynDHZAAbowYEvZCjheGeq8dqoEIOwvAZDZD",
-            "facebook": "@1684542381622488",
-            "twitter": "Mobirise",
-            "youtube": "",
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
-            "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
-          },
-          "alias": "social-feed",
-          "_tags": [
-            "Extensión"
-          ],
-          "_name": "feed",
-          "_anchor": "feed-h"
         }
       ]
     }
